@@ -39,38 +39,25 @@ The environment simulates real-world scenarios involving:
 - VirtualBox  
 - OWASP ZAP
 
-## 🎥 Full Project Demonstration Video
+##  Full Project Demonstration Video
 
-🔗 **Project Walkthrough:**  
   
 https://github.com/user-attachments/assets/9bf2b30c-a8f2-4d3e-8c38-de586bf38bc1
 
 This single video includes:
 
-- ✔️ Web Server 1 setup  
-- ✔️ Web Server 2 setup  
-- ✔️ NGINX Load Balancer configuration  
-- ✔️ Firewall setup  
-- ✔️ HTAccess authentication  
-- ✔️ ZAP scanning
+- Web Server 1 setup  
+- Web Server 2 setup  
+- NGINX Load Balancer configuration  
+- Firewall setup  
+- HTAccess authentication  
+- ZAP scanning
   
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 
-               Client (Browser / ZAP)
-                         |
-                         v
-               +----------------------+
-               |     NGINX LB VM      |
-               |     Reverse Proxy    |
-               +----------------------+
-                     /            \
-                    /              \
-                   v                v
-        +------------------+   +------------------+
-        | Fedora WebServer1|   | Fedora WebServer2|
-        | Apache + HTAccess|   | Apache + HTAccess|
-        +------------------+   +------------------+
+<img width="481" height="311" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/1a9a765a-4f06-46e1-8840-b2c3a538e9e3" />
+
 
 ## Project Steps
 
